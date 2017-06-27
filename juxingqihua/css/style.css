@@ -1,0 +1,53 @@
+/*global*/
+html,body,ul,li,dl,dt,dd,p{margin: 0;padding: 0;font-family: Microsoft Yahei,SimHei,Arial}
+img{border:none;}
+.floatleft{float: left;}
+.floatright{float: right;}
+li{list-style: none;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+.clearfix:before,.clearfix:after{ 
+    content:""; 
+    display:table; 
+} 
+.clearfix:after{clear:both;} 
+.clearfix{ 
+    *zoom:1;/*IE/7/6*/
+}
+/*style*/
+.layout{width: 1026px;margin: 0 auto;}
+/*header*/
+.header{margin: 27px auto 20px;}
+.header .floatright{margin-top: 50px}
+/*nav*/
+.nav {height: 70px;line-height: 70px;}
+.nav ul li{float: left;color: #898989;width: 155px;}
+.nav ul li.last{width: 92px;}
+.nav ul li a{color: #898989;font-size: 22px;font-family: Microsoft Yahei,SimHei,Arial}
+/*.about\*/
+/*together*/
+.item_v3{margin: 16px 0;}
+.item_v3 .l_first{width: 39px;}
+.item_v3 .l_right{margin-left:39px; }
+.item_v3 ul{border:1px solid #818181;padding-left: 13px;}
+.item_v3 ul li{float: left;margin-right:12px;width: 311px;position: relative;overflow: hidden;padding: 16px 0;}
+.item_v3 ul li .sumary{color:#7d7c7c;font-size: 14px;position: absolute;bottom: 16px;left: 0px;width: 100%; background-color: rgba(0, 0, 0 ,.1);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#19000000,endColorstr=#19000000);padding: 8px 10px;}
+.item_v3 ul li .sumary p{line-height: 18px;}
+
+.item_v2{margin: 16px 0;}
+.item_v2 .l_first{width: 39px;}
+.item_v2 .l_right{margin-left:39px; }
+.item_v2 ul{border:1px solid #818181;padding-left:13px;padding-bottom: 16px;}
+.item_v2 ul li{float: left;margin-right:12px;width: 311px;position: relative;overflow: hidden;padding: 16px 0 0 }
+.item_v2 ul li.l_1{width: 642px;height: 282px;}
+.item_v2 ul li.l_2{width: 299px;height: 282px;}
+.item_v2 ul li .sumary{color:#fff;font-size: 14px;position: absolute;bottom: 0px;left: 0px;width: 100%; background-color: rgba(180, 180, 180 ,.3);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4Bcccccc,endColorstr=#4Bcccccc);padding: 8px 10px;}
+.item_v2 ul li .sumary p{line-height: 18px;}
+
+.together .l_first{background-image: url(../images/item_title_01.jpg);width: 39px;height: 147px;}
+.actor .l_first{background-image: url(../images/item_title_02.jpg);width: 39px;height: 147px;}
+.intro .l_first{background-image: url(../images/item_title_03.jpg);width: 39px;height: 147px;}
+.example .l_first{background-image: url(../images/item_title_04.jpg);width: 39px;height: 147px;}
+
+.footer{text-align: center;line-height: 24px;}
+.bge9e8e7{background-color: #e9e8e7;padding: 10px}

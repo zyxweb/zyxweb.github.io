@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/fen1.css">
+    <link rel="stylesheet" href="../style1.css">
+    
+	<!--记得引入JQ库文件和特效库文件 路径记得修改 S-->
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.SuperSlide.js"></script>
+</head>
+<body>
+  <div class="wrap"><!--包裹层-->
+      <div class="header-box"><!--为了自适应-->
+          <div class="header clearfix"><!--top-->
+              <div class="logo"><img src="../images/logo.png" alt=""></div>
+              <div class="header-r">
+                  <ul>
+				     <li><a href="#">首页</a></li>
+				     <li><a href="#">科技博览</a></li>
+				     <li><a href="#">模板分享</a></li>
+				     <li><a href="#">文章</a></li>
+				     <li><a href="#">生活</a></li>
+				     <li><a href="#">知识碎语</a></li>
+				  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="fullSlide">
+			<div class="bd">
+				<ul>
+				  <li style="background:url(../images/1.jpg) #194982 center 0 no-repeat;"><a href="#"></a></li>
+				  <li style="background:url(../images/2.jpg) #15181e center 0 no-repeat;"><a href="#"></a></li>
+				  <li style="background:url(../images/3.jpg) #0b0b0b center 0 no-repeat;"><a href="#"></a></li>
+				  <li style="background:url(../images/4.jpg) #000000 center 0 no-repeat;"><a href="#"></a></li>
+				  <li style="background:url(../images/5.jpg) #04304b center 0 no-repeat;"><a href="#"></a></li>
+				</ul>
+  			</div>
+			<div class="hd">
+				<ul>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+		jQuery(".fullSlide").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click" });
+	</script> 
+      <div class="carousel">
+          <div class="carousel-pic"><!--放图片的-->
+              <ul id="list">
+                  <li><a href="mogujie/index.html"><img src="../images/mogujie.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="miui/MIUI.html"><img src="../images/xiaomi1.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="bootstrap/index.html"><img src="../images/boot.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="juxingqihua/JUXIN.html"><img src="../images/juxiangqihua.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="qianyuqianxun/index.html"><img src="../images/qianyuqianxun.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="photo/index.html"><img src="../images/shoujiwang.png" alt="" width="150px" height="116px"></a></li>
+                  
+                  <li><a href="mogujie/index.html"><img src="../images/mogujie.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="miui/MIUI.html"><img src="../images/xiaomi1.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="bootstrap/index.html"><img src="../images/boot.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="juxingqihua/JUXIN.html"><img src="../images/juxiangqihua.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="qianyuqianxun/index.html"><img src="../images/qianyuqianxun.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="photo/index.html"><img src="../images/shoujiwang.png" alt="" width="150px" height="116px"></a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="body-box"><!--中间部分,自适应-->
+          <div class="row">
+		    <h2 class="title-tj">
+		        <p>"文章"<span>推荐</span></p>
+		    </h2>
+		    <div class="bloglist">
+		        <h3><a href="#">【忙碌中的日子】总结个人经历的两年年...</a></h3>
+		        <h2>jquery事件</h2>
+
+		      <p>jQuery事件，事件处理程序指的是当HTML中发生某些事件所调用的方法。 一般是有以下三方面，一、在元素上移动鼠标。 二、选取单选按钮。 三、点击元素。 事件中经常使用术语“触发或激发”； 例如当你按下按下按键时触发keypress事件。常见的DOM事件如下；分别是鼠标事件： click鼠标点击 dbclick 鼠标双击 mouseenter 鼠标移上  mouseleave鼠标移下。 键盘事件： keypress键盘 keydown按下时 keyup松开时。 表单事件：submit  change focus blure . 文档窗口事件，load resize scroll unload. </p>
+                <p>jquery事件方法语法；在jQuery中，大多dom事件都有一个等效的jQuery方法，页面中指定一个点击事件：$("p").click();下面是定义什么时间触发事件，您可以通过一个事件函数实现：$("p").clock(function(){
+                //动作触发后执行的代码})</p>
+                <p>常用的jQuery事件方法：$(document).ready()$(document).ready() 方法允许我们在文档完全加载完后执行函数。该事件方法在 jQuery 语法 章节中已经提到过。click()click() 方法是当按钮点击事件被触发时会调用一个函数。该函数在用户点击 HTML 元素时执行。在下面的实例中，当点击事件在某个 p 元素上触发时，隐藏当前的元素.</p> <p>dblclick()当双击元素时，会发生 dblclick 事件。dblclick() 方法触发 dblclick 事件，或规定当发生 dblclick 事件时运行的函数.mouseenter()当鼠标指针穿过元素时，会发生 mouseenter 事件。</p>
+               <p>mouseenter() 方法触发 mouseenter 事件，或规定当发生 mouseenter 事件时运行的函数. mouseleave()当鼠标指针离开元素时，会发生 mouseleave 事件。mouseleave() 方法触发 mouseleave 事件，或规定当发生 mouseleave 事件时运行的函数. mousedown()当鼠标指针移动到元素上方，并按下鼠标按键时，会发生 mousedown 事件。</p>
+               <p>mousedown() 方法触发 mousedown 事件，或规定当发生 mousedown 事件时运行的函数. mouseup()当在元素上松开鼠标按钮时，会发生 mouseup 事件。mouseup() 方法触发 mouseup 事件，或规定当发生 mouseup 事件时运行的函数.</p>
+               <p> hover()hover()方法用于模拟光标悬停事件。当鼠标移动到元素上时，会触发指定的第一个函数(mouseenter);当鼠标移出这个元素时，会触发指定的第二个函数(mouseleave)。</p>
+               <p>focus()当元素获得焦点时，发生 focus 事件。当通过鼠标点击选中元素或通过 tab 键定位到元素时，该元素就会获得焦点。focus() 方法触发 focus 事件，或规定当发生 focus 事件时运行的函数. blur()当元素失去焦点时，发生 blur 事件。blur() 方法触发 blur 事件，或规定当发生 blur 事件时运行的函数.</p>
+                <p>例子：
+
+$(document).ready(function(){
+  $("#p1").mouseenter(function(){
+    alert('您的鼠标移到了 id="p1" 的元素上!');
+  });
+});
+
+ id="p1">鼠标指针进入此处，会看到弹窗。</p>
+
+
+
+            
+            
+		        <p class="dateview">
+		            <span>2017-01-09</span>
+		            <span>作者：zyx</span>
+		            <span>个人博客：心得笔记</span>
+		        </p> 
+		    </div>
+		    <div class="right">
+		        <div class="tupian"></div>
+		        <div class="new">
+		            <h3>
+		                <p>最新<span>文章</span></p>
+		            </h3>
+		            <ul class="fenwenzhang">
+		                <li><a href="#">Rrgect简介</a></li>
+		                <li><a href="#">Regect安装</a></li>
+		                <li><a href="#">React JSX</a></li>
+		                <li><a href="#">React 组件</a></li>
+		                <li><a href="#">React State</a></li>
+		                <li><a href="#">React Props</a></li>
+		                <li><a href="#">React 组件API</a></li>
+		                <li><a href="#">React AJAX</a></li>
+		                <li><a href="#">React 表单与事件</a></li>
+		                <li><a href="#">React refs</a></li>
+		            </ul>
+		        </div>
+		        
+		        
+		         <div class="css">
+		            <h3>
+		                <p>最新<span>css文章</span></p>
+		            </h3>
+		            <ul class="fenwenzhang">
+		                <li><a href="index-z/css1.html">css背景属性背景的运用</a></li>
+		                <li><a href="index-z/css2%20.html">css边框属性的运用</a></li>
+		                <li><a href="index-z/css3%20.html">css中常用水平对齐与兼容性问题</a></li>
+		                <li><a href="#">css伪类</a></li>
+		                <li><a href="#">css图像透明</a></li>
+		                <li><a href="#">css图像拼合技术</a></li>
+		                <li><a href="#">css3 2D转换</a></li>
+		                <li><a href="#">css3 3D转换</a></li>
+		                <li><a href="#">css3 过度</a></li>
+		                <li><a href="#">css3动画</a></li>
+		            </ul>
+		        </div>
+		        
+		        
+		        <div class="git">
+		            <h3>
+		                <p>最新<span>jquery文章</span></p>
+		            </h3>
+		            <ul class="fenwenzhang">
+		                <li><a href="index-z/jq1%20.html">jquery 事件</a></li>
+		                <li><a href="index-z/jq2.html">jQuery 效果</a></li>
+		                <li><a href="#">jQuery HTML</a></li>
+		                <li><a href="#">jQuery 遍历</a></li>
+		                <li><a href="#">jQuery Ajax</a></li>
+		                <li><a href="#">jQuery 其他</a></li>
+		                <li><a href="#">jquery遍历方法</a></li>
+		                <li><a href="#">jQuery效果方法</a></li>
+		                <li><a href="#">jQuery杂项方法</a></li>
+		                <li><a href="#">jQuery密码验证</a></li>
+		            </ul>
+		        </div>
+		        
+		        </div>
+		    </div>
+		</div>
+      
+      <div class="footer-box">
+          <div class="footer">
+              <div class="footer-t">
+                  <div class="wrap-php">
+                        <div class="box-php">
+                            <div><a href="#"><img src="../images/php1.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/php1.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/php1.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/php1.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/php1.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/php1.jpg" alt="php1" width="100px" height="100px"></a></div>
+                        </div>
+                </div>
+                  
+                  <div class="wrap-2">
+                        <div class="box-php">
+                            <div><a href="#"><img src="../images/react.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/react.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/react.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/react.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/react.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/react.jpg" alt="php1" width="100px" height="100px"></a></div>
+                        </div>
+                </div>
+                  
+                 <div class="wrap-3">
+                        <div class="box-php">
+                            <div><a href="#"><img src="../images/SQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/SQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/SQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/SQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/SQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/SQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                        </div>
+                </div>
+                  
+                  <div class="wrap-4">
+                        <div class="box-php">
+                            <div><a href="#"><img src="../images/MYSQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/MYSQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/MYSQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/MYSQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/MYSQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="../images/MYSQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                        </div>
+                </div>
+                   <!--<div class="phpd"><a href="#"><img src="images/php1.jpg" alt="php1" width="198px" height="198px"></a></div>
+                   <div class="gitd"><a href="#"><img src="images/git.jpg" alt="git" width="198px" height="200px"></a></div>
+                   <div class="reactdh"><a href="#"><img src="images/react.jpg" alt="react" width="198px" height="200px"></a></div>
+                   <div class="sqld"><a href="#"><img src="images/SQL.jpg" alt="react" width="198px" height="200px"></a></div>
+                   <div class="mysql"><a href="#"><img src="images/MYSQL.jpg" alt="react" width="198px" height="200px"></a></div>-->
+                 
+                      <!--<a href="#" class="reactdh"><img src="images/react.jpg" alt="react" width="198px" height="200px"></a>-->
+                      <!--<a href="#" class="gitd"><img src="images/git.jpg" alt="git" width="198px" height="200px"></a>
+                      <a href="#" class="sqld"><img src="images/SQL.jpg" alt="sql" width="198px" height="200px"></a>
+                      <a href="#" class="mysqld"><img src="images/MYSQL.jpg" alt="mysql" width="198px" height="200px"></a>-->
+              </div>
+               
+            <div class="footer-d">
+                <p><span>zyx欢迎大家一起交流</span>
+                    <span>QQ:820966384</span>
+                </p>
+            </div>
+          </div>
+      </div> 
+      </div>
+      
+</body>
+</html>

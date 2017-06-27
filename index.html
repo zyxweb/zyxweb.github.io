@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>君莫笑个人博客</title>
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="style1.css">
+    
+	<!--记得引入JQ库文件和特效库文件 路径记得修改 S-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.js"></script>
+</head>
+<body>
+  <div class="wrap"><!--包裹层-->
+      <div class="header-box"><!--为了自适应-->
+          <div class="header clearfix"><!--top-->
+              <div class="logo"><img src="images/logo.png" alt=""></div>
+              <div class="header-r">
+                  <ul>
+				     <li><a href="#">首页</a></li>
+				     <li><a href="#">科技博览</a></li>
+				     <li><a href="#">模板分享</a></li>
+				     <li><a href="#">文章</a></li>
+				     <li><a href="#">生活</a></li>
+				     <li><a href="#">知识碎语</a></li>
+				  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="fullSlide">
+			<div class="bd">
+				<ul>
+				  <li style="background:url(images/1.jpg) #194982 center 0 no-repeat;"><a href="#"></a></li>
+				  <li style="background:url(images/2.jpg) #15181e center 0 no-repeat;"><a href="#"></a></li>
+				  <li style="background:url(images/3.jpg) #0b0b0b center 0 no-repeat;"><a href="#"></a></li>
+				  <li style="background:url(images/4.jpg) #000000 center 0 no-repeat;"><a href="#"></a></li>
+				  <li style="background:url(images/5.jpg) #04304b center 0 no-repeat;"><a href="#"></a></li>
+				</ul>
+  			</div>
+			<div class="hd">
+				<ul>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+		jQuery(".fullSlide").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click" });
+	</script> 
+      <div class="carousel">
+          <div class="carousel-pic"><!--放图片的-->
+              <ul id="list">
+                  <li><a href="mogujie/index.html"><img src="images/mogujie.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="miui/MIUI.html"><img src="images/xiaomi1.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="bootstrap/index.html"><img src="images/boot.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="juxingqihua/JUXIN.html"><img src="images/juxiangqihua.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="qianyuqianxun/index.html"><img src="images/qianyuqianxun.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="photo/index.html"><img src="images/shoujiwang.png" alt="" width="150px" height="116px"></a></li>
+                  
+                  <li><a href="mogujie/index.html"><img src="images/mogujie.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="miui/MIUI.html"><img src="images/xiaomi1.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="bootstrap/index.html"><img src="images/boot.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="juxingqihua/JUXIN.html"><img src="images/juxiangqihua.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="qianyuqianxun/index.html"><img src="images/qianyuqianxun.png" alt="" width="150px" height="116px"></a></li>
+                  <li><a href="photo/index.html"><img src="images/shoujiwang.png" alt="" width="150px" height="116px"></a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="body-box"><!--中间部分,自适应-->
+          <div class="row">
+		    <h2 class="title-tj">
+		        <p>"文章"<span>推荐</span></p>
+		    </h2>
+		    <div class="bloglist">
+		        <h3><a href="#">【忙碌中的日子】总结个人经历的四年...</a></h3>
+		        <figure>
+		            <img src="images/list-1.jpg" alt="忙碌的日子">
+		        </figure>
+		        <ul>
+		            <p>博客从最初的域名购买，到上线已经有四年的时间了，这四年的时间，有笑过，有怨过，有悔过，有执着过，也有放弃过…但最后还是坚持了下来，时间如此匆匆，等再回过头已来不及去弥补</p>
+		            <a class="readmore" href="souYeQuanWen.html">阅读全文</a>
+		        </ul>
+		        <p class="dateview">
+		            <span>2015-01-09</span>
+		            <span>作者：zyx</span>
+		            <span>个人博客：心得笔记</span>
+		        </p>
+		        
+		        
+		            <h3><a href="#">【忙碌中的日子】初学css应该学些什么呢...</a></h3>
+		        <figure>
+		            <img src="images/css.jpg" alt="忙碌的日子" >
+		        </figure>
+		        <ul>
+		            <p>博客从最初的域名购买，到上线已经有四年的时间了，这四年的时间，有笑过，有怨过，有悔过，有执着过，也有放弃过…但最后还是坚持了下来，时间如此匆匆，等再回过头已来不及去弥补</p>
+		            <a class="readmore" href="">阅读全文</a>
+		        </ul>
+		        <p class="dateview">
+		            <span>2015-01-09</span>
+		            <span>作者：zyx</span>
+		            <span>个人博客：心得笔记</span>
+		        </p>
+		        
+		        
+		            <h3><a href="#">【忙碌中的日子】初学web前端应该学些什么呢？...</a></h3>
+		        <figure>
+		            <img src="images/web.jpg" alt="忙碌的日子">
+		        </figure>
+		        <ul>
+		            <p>遇到很多新手，都会问，如果要学习web前端开发，需要学习什么？难不难？多久能入门？怎么能快速建一个网站？工资能拿到多少？还有些让我推荐一些培训机构什么的要去学习。我建议是自学，实在是觉得自己没有这个能力，确实是需要一个老师的话，那你还是自己做主找个老师吧！</p>
+		            <a class="readmore" href="">阅读全文</a>
+		        </ul>
+		        <p class="dateview">
+		            <span>2015-01-09</span>
+		            <span>作者：zyx</span>
+		            <span>个人博客：心得笔记</span>
+		        </p>
+		        
+		        
+		            <h3><a href="#">【忙碌中的日子】初学PHP应该学什么...</a></h3>
+		        <figure>
+		            <img src="images/php.jpg" alt="忙碌的日子">
+		        </figure>
+		        <ul>
+		            <p>博客从最初的域名购买，到上线已经有四年的时间了，这四年的时间，有笑过，有怨过，有悔过，有执着过，也有放弃过…但最后还是坚持了下来，时间如此匆匆，等再回过头已来不及去弥补</p>
+		            <a class="readmore" href="">阅读全文</a>
+		        </ul>
+		        <p class="dateview">
+		            <span>2015-01-09</span>
+		            <span>作者：zyx</span>
+		            <span>个人博客：心得笔记</span>
+		        </p>
+		        
+		        
+		            <h3><a href="#">【忙碌中的日子】努力吧，少年我们还有很远的路要走...</a></h3>
+		        <figure>
+		            <img src="images/nuli.jpg" alt="忙碌的日子">
+		        </figure>
+		        <ul>
+		            <p>博客从最初的域名购买，到上线已经有四年的时间了，这四年的时间，有笑过，有怨过，有悔过，有执着过，也有放弃过…但最后还是坚持了下来，时间如此匆匆，等再回过头已来不及去弥补</p>
+		            <a class="readmore" href="">阅读全文</a>
+		        </ul>
+		        <p class="dateview">
+		            <span>2015-01-09</span>
+		            <span>作者：zyx</span>
+		            <span>个人博客：心得笔记</span>
+		        </p>
+		    </div>
+		    <div class="right">
+		        <div class="tupian"></div>
+		        <div class="new">
+		            <h3>
+		                <p>最新<span>文章</span></p>
+		            </h3>
+		            <ul class="fenwenzhang">
+		                <li><a href="#">Rrgect简介</a></li>
+		                <li><a href="#">Regect安装</a></li>
+		                <li><a href="#">React JSX</a></li>
+		                <li><a href="#">React 组件</a></li>
+		                <li><a href="#">React State</a></li>
+		                <li><a href="#">React Props</a></li>
+		                <li><a href="#">React 组件API</a></li>
+		                <li><a href="#">React AJAX</a></li>
+		                <li><a href="#">React 表单与事件</a></li>
+		                <li><a href="#">React refs</a></li>
+		            </ul>
+		        </div>
+		        
+		        
+		         <div class="css">
+		            <h3>
+		                <p>最新<span>css文章</span></p>
+		            </h3>
+		            <ul class="fenwenzhang">
+		                <li><a href="index-z/css1.html">css背景属性背景的运用</a></li>
+		                <li><a href="index-z/css2.html">css边框属性的运用</a></li>
+		                <li><a href="index-z/css3.html">css中常用水平对齐与兼容性问题</a></li>
+		                <li><a href="#">css伪类</a></li>
+		                <li><a href="#">css图像透明</a></li>
+		                <li><a href="#">css图像拼合技术</a></li>
+		                <li><a href="#">css3 2D转换</a></li>
+		                <li><a href="#">css3 3D转换</a></li>
+		                <li><a href="#">css3 过度</a></li>
+		                <li><a href="#">css3动画</a></li>
+		            </ul>
+		        </div>
+		        
+		        
+		        <div class="git">
+		            <h3>
+		                <p>最新<span>jquery文章</span></p>
+		            </h3>
+		            <ul class="fenwenzhang">
+		                <li><a href="index-z/jq1.html">jquery 事件</a></li>
+		                <li><a href="index-z/jq2.html">jQuery 效果</a></li>
+		                <li><a href="index-z/jq3.html">jQuery HTML</a></li>
+		                <li><a href="index-z/jq4.html">jQuery 遍历</a></li>
+		                <li><a href="index-z/jq5.html">jQuery Ajax</a></li>
+		                <li><a href="index-z/jq6.html">jQuery 其他</a></li>
+		                <li><a href="index-z/jq7.html">jquery遍历方法</a></li>
+		                <li><a href="index-z/jq8.html">jQuery效果方法</a></li>
+		                <li><a href="index-z/jq9.html">jQuery杂项方法</a></li>
+		                <li><a href="index-z/jq.html">jQuery密码验证</a></li>
+		            </ul>
+		        </div>
+		        
+		        </div>
+		    </div>
+		</div>
+      
+      <div class="footer-box">
+          <div class="footer">
+              <div class="footer-t">
+                  <div class="wrap-php">
+                        <div class="box-php">
+                            <div><a href="#"><img src="images/php1.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/php1.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/php1.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/php1.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/php1.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/php1.jpg" alt="php1" width="100px" height="100px"></a></div>
+                        </div>
+                </div>
+                  
+                  <div class="wrap-2">
+                        <div class="box-php">
+                            <div><a href="#"><img src="images/react.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/react.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/react.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/react.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/react.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/react.jpg" alt="php1" width="100px" height="100px"></a></div>
+                        </div>
+                </div>
+                  
+                 <div class="wrap-3">
+                        <div class="box-php">
+                            <div><a href="#"><img src="images/SQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/SQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/SQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/SQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/SQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/SQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                        </div>
+                </div>
+                  
+                  <div class="wrap-4">
+                        <div class="box-php">
+                            <div><a href="#"><img src="images/MYSQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/MYSQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/MYSQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/MYSQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/MYSQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                            <div><a href="#"><img src="images/MYSQL.jpg" alt="php1" width="100px" height="100px"></a></div>
+                        </div>
+                </div>
+                   <!--<div class="phpd"><a href="#"><img src="images/php1.jpg" alt="php1" width="198px" height="198px"></a></div>
+                   <div class="gitd"><a href="#"><img src="images/git.jpg" alt="git" width="198px" height="200px"></a></div>
+                   <div class="reactdh"><a href="#"><img src="images/react.jpg" alt="react" width="198px" height="200px"></a></div>
+                   <div class="sqld"><a href="#"><img src="images/SQL.jpg" alt="react" width="198px" height="200px"></a></div>
+                   <div class="mysql"><a href="#"><img src="images/MYSQL.jpg" alt="react" width="198px" height="200px"></a></div>-->
+                 
+                      <!--<a href="#" class="reactdh"><img src="images/react.jpg" alt="react" width="198px" height="200px"></a>-->
+                      <!--<a href="#" class="gitd"><img src="images/git.jpg" alt="git" width="198px" height="200px"></a>
+                      <a href="#" class="sqld"><img src="images/SQL.jpg" alt="sql" width="198px" height="200px"></a>
+                      <a href="#" class="mysqld"><img src="images/MYSQL.jpg" alt="mysql" width="198px" height="200px"></a>-->
+              </div>
+               
+            <div class="footer-d">
+                <p><span>zyx欢迎大家一起交流</span>
+                    <span>QQ:820966384</span>
+                </p>
+            </div>
+          </div>
+      </div> 
+      </div>
+      
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>css水平对齐</title>
+    <link href="../css/css1.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div class="wrap">
+    <div class="header"></div>
+    <div class="mode-body">
+        <div class="container">
+            <div class="article">
+                <h1 class="article-title">常用css中水平对齐与兼容性总结</h1>
+                <div class="article-info">
+                    <span>作者：张衍勋</span>
+                    <span>时间：2017-1-22 12：21：22</span>
+                    <span>分类：WEB前端</span>
+                    <span>浏览量：2021</span>
+                </div>
+                <div class="article-content"><p>中心对齐使用margin属性，块元素可以把左右边距设置为自动对齐，在IE8中使用margin：auto属性无法正常工作，除非声明！DOCTYPE，同时margin属性可以任意拆分为左右页边距设置自动指定，结果都是出现居中元素。例：.center{margin-left:auto; margin-right:auto; with:70%; background-color:#b00ee6;}  提示：如果宽度是100%，对齐是没有效果的。</p>
+                <p>使用position属性设置左右对齐，元素对齐方法之一是使用绝对定位。例：.right{position:absolute: right:0px;with:300px; background-color:#b0e0e6;}</p>
+                <p>Crossbrowser 兼容性问题
+类似这样的元素对齐时，预先确定margin和元素的填充，始终是一个好主意。这是为了避免在不同的浏览器中的可视化差异。
+IE8和早期有一个问题，当使用position属性时。如果一个容器元素（在本例中div class="container"）指定的宽度，!DOCTYPE声明是缺失，IE8和早期版本会在右边增添17px的margin。这似乎是一个滚动的预留空间。使用position属性时始终设置在DOCTYPE声明中！例：body
+{
+	margin:0;
+	padding:0;
+}
+.container
+{
+	position:relative;
+	width:100%;
+}
+.right
+{
+	position:absolute;
+	right:0px;
+	width:300px;
+	background-color:#b0e0e6;
+}</p>
+                <p>使用float属性设置左，右对齐使用float属性是对齐元素的方法之一：例：.right
+{
+	float:right;
+	width:300px;
+	background-color:#b0e0e6;
+}</p>
+                <p>crossbrowser兼容性问题类似这样对齐时，预先确定margin和元素的填充，始终是一个好主意，这是为了避免在不同浏览器中的可视化差异。IE8和早期有有一个问题，当使用float属性时，如果一个容器元素（在本例中div class="container)指定的宽度，！DOCTYPE声明缺失"body
+{
+    margin:0;
+    padding:0;
+}
+.right
+{
+    float:right;
+    width:300px;
+    background-color:#b0e0e6;
+}</p>
+            
+</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+</div>   
+</body>
+</html>
